@@ -16,10 +16,29 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 # Api-Get-Using-Bloc
 
-2021 / 02 / 00  Flutter-Login-Firebase-Bloc
-
-Flutter-Login-Firebase-Bloc.
-
 [My Github](https://github.com/wayne900204),
 
 📫  Reach me  **wayne900204@gmail.com**
+
+## My API JSON
+```
+{
+  "success" : true,
+  "message" : "SUCCESS",
+  "data" : [ {
+    "id" : 0,
+    "name" : "八方雲集沙鹿靜宜店",
+    "description" : "營業時間：10:00 – 21:00\n中午不外送",
+    "phone" : "0426321128",
+    "address" : "台中市沙鹿區英才路17號",
+    "lowest_price" : 300
+  }, {
+    "id" : 1,
+    "name" : "偉哥鹹酥雞台中靜宜店",
+    "description" : "營業時間：15:30 – 12:15\n沒有提供外送服務",
+    "phone" : "0423809838",
+    "address" : "臺中市沙鹿區北勢東路517之1號",
+    "lowest_price" : 0
+  } ]
+}
+```
