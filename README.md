@@ -23,4 +23,3 @@ Flutter-Login-Firebase-Bloc.
 [My Github](https://github.com/wayne900204),
 
 📫  Reach me  **wayne900204@gmail.com**
-# Flutter-Api-Get-Bloc
