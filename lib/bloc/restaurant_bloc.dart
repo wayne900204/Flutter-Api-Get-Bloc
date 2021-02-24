@@ -1,11 +1,11 @@
 import 'package:bloc/bloc.dart';
 import 'package:bloc_get_api/data/model/api_result_model.dart';
-import 'package:bloc_get_api/data/repository/article_repository.dart';
+import 'package:bloc_get_api/data/repository/restaurant_repository.dart';
 
 import 'package:meta/meta.dart';
 
-import 'article_event.dart';
-import 'article_state.dart';
+import 'restaurant_event.dart';
+import 'restaurant_state.dart';
 
 class RestaurantBloc extends Bloc<RestaurantEvent, RestaurantState> {
 

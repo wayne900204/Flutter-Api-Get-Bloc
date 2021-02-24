@@ -1,10 +1,10 @@
-import 'package:bloc_get_api/bloc/article_state.dart';
+import 'package:bloc_get_api/bloc/restaurant_state.dart';
 import 'package:bloc_get_api/data/model/api_result_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 // own import
-import 'package:bloc_get_api/bloc/article_bloc.dart';
-import 'package:bloc_get_api/bloc/article_event.dart';
+import 'package:bloc_get_api/bloc/restaurant_bloc.dart';
+import 'package:bloc_get_api/bloc/restaurant_event.dart';
 
 import 'about_page.dart';
 class HomePage extends StatefulWidget {
