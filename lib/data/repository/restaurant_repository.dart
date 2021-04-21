@@ -14,7 +14,7 @@ class RestaurantRepository  {
 
   @override
   Future<RestaurantModel> getRestaurantData() async {
-    final response =  await http.get(AppStrings.cricArticleUrl);
+    final response =  await http.get(Uri.parse(AppStrings.cricArticleUrl));
 
     if (response.statusCode == 200) {
       List<int> bytes = response.body.toString().codeUnits;

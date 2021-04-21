@@ -12,7 +12,7 @@ class RestaurantBloc extends Bloc<RestaurantEvent, RestaurantState> {
   RestaurantRepository restaurantRepository;
 
   RestaurantBloc({@required this.restaurantRepository}) : super(RestaurantLoadingState());
-  
+
   RestaurantState get initialState => RestaurantLoadingState();
 
   @override
@@ -20,7 +20,6 @@ class RestaurantBloc extends Bloc<RestaurantEvent, RestaurantState> {
     if (event is FetchRestaurantEvent) {
       yield RestaurantLoadingState();
       try {
-
         RestaurantModel restaurantModel = await restaurantRepository.getRestaurantData();
         print("Bloc Success");
         yield RestaurantSuccessState(restaurantModel: restaurantModel);
@@ -30,5 +29,4 @@ class RestaurantBloc extends Bloc<RestaurantEvent, RestaurantState> {
       }
     }
   }
-
 }
